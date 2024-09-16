@@ -47,14 +47,16 @@ header > img {
 }
 
 menu {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 header a {
+    text-decoration: none;
     padding: 10px;
     background-color: #272C36;
     color: white;
     border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
 }
 
 header a:hover {
@@ -121,6 +123,14 @@ footer {
     padding: 7px;
 }
 
-a {
-    text-decoration: none;
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
