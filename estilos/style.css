@@ -23,7 +23,7 @@ header {
     background-color: #354361;
     color: white;
     text-align: center;
-    box-shadow: 5px 5px 10px black;
+    
 }
 
 header > h1 {
@@ -46,8 +46,9 @@ header > img {
     box-shadow: 5px 5px 8px black;
 }
 
-menu {
+header > main {
     padding-bottom: 30px;
+    b
 }
 
 header a {
@@ -88,6 +89,10 @@ section.normal {
     color: black;
 }
 
+section#n2 > p {
+    padding-bottom: 20px;
+}
+
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
@@ -100,9 +105,13 @@ section.imagem {
 section.imagem > p, section.imagem > h1 {
     width: 70vw;
     max-width: 500px;
-    padding: 5px;
+    padding: 15px;
     background-color: rgba(0, 0, 0, 0.493);
     text-shadow: 1.5px 1.5px 0px black;
+}
+
+section.imagem > p {
+    padding-bottom: 20px;
 }
 
 section#img01 {
