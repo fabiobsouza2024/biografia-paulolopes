@@ -36,7 +36,6 @@ header > h1 {
 header > p {
     padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 header > img {
@@ -45,6 +44,23 @@ header > img {
     width: 150px;
     border-radius: 50%;
     box-shadow: 5px 5px 8px black;
+}
+
+menu {
+    padding-bottom: 10px;
+}
+
+header a {
+    padding: 10px;
+    background-color: #272C36;
+    color: white;
+    border-radius: 10px;
+}
+
+header a:hover {
+    background-color: #0B4FE0;
+    color: #272C36;
+    transition-duration: 0.3s;
 }
 
 section {
