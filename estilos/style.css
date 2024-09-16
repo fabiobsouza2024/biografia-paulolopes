@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+:root {
+    --cor01: #2755B6;
+    --cor02: #35518B;
+    --cor03: #0B4FE0;
+    --cor04: #354361;
+    --cor05: #272C36;
+    --cor06: #2D2F33;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header {
+    background-color: #354361;
+    color: white;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+}
+
+header > h1 {
+    padding-bottom: 20px;
+    font-size: 3em;
+    font-variant: small-caps;
+    text-shadow: 2px 2px 4px black;
+}
+
+header > p {
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header > img {
+    margin-top: 20px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 5px 5px 8px black;
+}
+
+section {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+section p {
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+section h1 {
+    font-variant: small-caps;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem > p, section.imagem > h1 {
+    width: 70vw;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.493);
+    text-shadow: 1.5px 1.5px 0px black;
+}
+
+section#img01 {
+    background-image: url(../imagens/foto02.jpeg);
+    background-position:  center;
+    
+}
+
+section#img02 {
+    background-image: url(../imagens/foto03.jpeg);
+    background-position: left ;
+   
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 7px;
+}
+
+a {
+    text-decoration: none;
+}
