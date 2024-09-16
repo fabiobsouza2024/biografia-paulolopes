@@ -126,6 +126,11 @@ section#img02 {
    
 }
 
+section.imagem > p > a {
+    text-decoration: underline;
+    color: white;
+}
+
 footer {
     background-color: black;
     color: white;
