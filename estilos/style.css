@@ -47,24 +47,26 @@ header > img {
 }
 
 header > main {
-    padding-bottom: 30px;
-    b
+    padding-bottom: 10px;
 }
 
 header a {
     text-decoration: none;
+    background-color: white;
+    display: inline-block;
+    font-weight: bolder;
     padding: 10px;
-    background-color: #272C36;
-    color: white;
+    color: black;
     border-radius: 10px;
     box-shadow: 2px 2px 4px black;
 }
 
 header a:hover {
-    background-color: #0B4FE0;
-    color: #272C36;
+    background-color: #35518B;
+    color: white;
     transition-duration: 0.3s;
 }
+
 
 section {
     padding-top: 15vh;
