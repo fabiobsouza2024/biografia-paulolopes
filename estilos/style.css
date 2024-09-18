@@ -42,25 +42,25 @@ header > img {
     box-shadow: 5px 5px 8px black;
 }
 
-header > main {
-    padding-bottom: 10px;
-}
-
-header a {
-    text-decoration: none;
+button {
+    display: block;
+    margin: auto;
     background-color: white;
-    display: inline-block;
-    font-weight: bolder;
-    padding: 10px;
     color: black;
+    width: 90vw;
     border-radius: 10px;
-    box-shadow: 2px 2px 4px black;
+    padding: 10px;
+    font-weight: bolder;
 }
 
-header a:hover {
-    background-color: #35518B;
+button:hover {
+    background-color: #2755B6;
     color: white;
-    transition-duration: 0.3s;
+}
+
+ul > a {
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 
