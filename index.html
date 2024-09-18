@@ -13,7 +13,7 @@
         <h1>Paulo Lopes Biografia</h1>
         <menu>
             <ul>
-                <li><a href="https://www.instagram.com/paulo.lopesoficial/" target="_blank">Instagram</a></li>
+                <li onclick="clickMenu()"><a href="https://www.instagram.com/paulo.lopesoficial/" target="_blank">Instagram</a></li>
                 <li><a href="https://www.facebook.com/pr.paulo.lopes.mipa" target="_blank">Facebook</a></li>
             </ul>
         </menu>
@@ -43,5 +43,12 @@
         </section>
     </main>
     <footer>Pastor paulo Lopes</footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.diplay == 'block') {
+                itens.style.bisplay = 'none'
+            } 
+        }
+    </script>
 </body>
 </html>
