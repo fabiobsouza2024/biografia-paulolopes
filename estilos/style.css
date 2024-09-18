@@ -41,7 +41,9 @@ header > img {
 }
 
 li {
-    margin-top: 2px;
+
+    padding-bottom: 5px;
+ 
 }
 
 li > a {
