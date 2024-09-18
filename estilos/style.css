@@ -42,27 +42,22 @@ header > img {
     box-shadow: 5px 5px 8px black;
 }
 
-button {
-    display: block;
-    margin: auto;
+li {
+    list-style: none;
     background-color: white;
-    color: black;
-    width: 90vw;
-    border-radius: 10px;
     padding: 10px;
-    font-weight: bolder;
+    margin-top: 3px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90vw;
+    margin: auto;
 }
 
-button:hover {
-    background-color: #2755B6;
-    color: white;
-}
-
-ul > a {
+li > a {
     text-decoration: none;
+    color: black;
     font-weight: bolder;
 }
-
 
 section {
     padding-top: 15vh;
