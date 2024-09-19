@@ -20,7 +20,7 @@ html, body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, #354361, #2755b6);
+    background-image: linear-gradient(to bottom, rgb(77, 68, 68), rgb(158, 152, 109));
     color: white;
     text-align: center;
 }
@@ -37,7 +37,7 @@ header > img {
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    box-shadow: 5px 5px 8px black;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.473);
 }
 
 li {
@@ -57,11 +57,11 @@ li > a {
     text-decoration: none;
     color: black;
     font-weight: bolder;
-    box-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.479);
 }
 
 li > a:hover {
-    background-color: #2755B6;
+    background-color: #6f7255;
     color: white;
 }
 
