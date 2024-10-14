@@ -1,14 +1,5 @@
 @charset "UTF-8";
 
-:root {
-    --cor01: #2755B6;
-    --cor02: #35518B;
-    --cor03: #0B4FE0;
-    --cor04: #354361;
-    --cor05: #272C36;
-    --cor06: #2D2F33;
-}
-
 * {
     margin: 0px;
     padding: 0px;
@@ -95,7 +86,7 @@ section#n2 > p {
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: white;
-    max-width: 600px;
+    max-width: ;
     box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.5);
     background-size: cover;
     background-attachment: fixed;
@@ -116,13 +107,11 @@ section.imagem > p {
 section#img01 {
     background-image: url(../imagens/foto02.jpeg);
     background-position:  center;
-    
 }
 
 section#img02 {
     background-image: url(../imagens/foto03.jpeg);
     background-position: 50% ;
-   
 }
 
 section.imagem > p > a {
@@ -138,14 +127,37 @@ footer {
     font-size: 0.7em;
 }
 
-footer a {
-    color: white;
+section#contato {
+    background-color: rgb(201, 201, 201);
+    margin: auto;
+    padding: 15px;
+    width: 80vw;
 }
 
-footer a:hover {
+div.corpo {
+    display: block;
     background-color: white;
+    width: 80vw;
+    height: 50vh;
+}
+
+div.zap > h2{
     color: black;
-    border-radius: 3px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    font-size: 1em;
+}
+
+div.zap > p > a > img {
+    width: 50px;
+}
+
+div.form {
+    padding-bottom: 0px;
+    color: black;
+}
+
+textarea {
+    width: 168px;
+    height: 90px;
+    margin: 0px;
+    padding: 0px;
 }
